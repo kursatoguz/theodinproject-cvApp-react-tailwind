@@ -1,6 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 
 const Step1 = ({ increase, personal, setPersonal, setFile }) => {
+  const [showMessage, setShowMessage] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setPersonal({ ...personal, [name]: value });
@@ -9,6 +10,7 @@ const Step1 = ({ increase, personal, setPersonal, setFile }) => {
     if (e.target.files && e.target.files[0]) {
       let img = e.target.files[0];
       setFile(img);
+      setShowMessage(true);
     }
   };
   return (
@@ -50,11 +52,24 @@ const Step1 = ({ increase, personal, setPersonal, setFile }) => {
         placeholder="Title"
         className="w-full border hover:border-2 rounded-md border-neutral-300 px-1 py-2 outline-blue-600 focus:border-0"
       />
+      <label
+        for="file-upload"
+        class="w-full bg-white border cursor-pointer pl-1 py-2 mt-2 rounded-md uppercase tracking-wider font-semibold"
+      >
+        Add Photo{" "}
+        <span
+          className=" lowercase text-sm "
+          style={{ color: showMessage ? "green" : "red" }}
+        >
+          {showMessage ? "File Uploaded" : "No File Selected"}
+        </span>
+      </label>
       <input
+        id="file-upload"
         type="file"
         name="userImage"
         onChange={(e) => handleUpload(e)}
-        className="w-full bg-white border py-2 mt-2 rounded-md uppercase tracking-wider font-semibold"
+        className="hidden"
         title="Add Photo"
       />
 
