@@ -28,7 +28,7 @@ const Step3 = ({ education, setEducation, increase, decrease }) => {
   return (
     <form className=" relative w-6/12 mx-auto flex flex-col justify-content:center align-items:center m-6 font-mono ">
       <h4 className="text-2xl font-medium text-center ">Education</h4>
-      <div className="bg-green-700 h-px mt-2 w-40 mx-auto shadow-md"></div>
+      <div className="bg-yellow-400 h-px mt-2 w-40 mx-auto shadow-md"></div>
       {education.map((element, index) => {
         return (
           <div key={index}>

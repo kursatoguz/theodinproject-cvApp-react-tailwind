@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const Step1 = ({ increase, personal, setPersonal, setFile }) => {
   const [showMessage, setShowMessage] = useState(false);
   const handleChange = (e) => {
@@ -18,7 +17,7 @@ const Step1 = ({ increase, personal, setPersonal, setFile }) => {
       <h4 className="text-2xl font-medium text-center ">
         Personal Informations
       </h4>
-      <div className="bg-green-700 h-px mt-2 w-40 mx-auto shadow-md"></div>
+      <div className="bg-yellow-400 h-px mt-2 w-40 mx-auto shadow-md"></div>
       <label htmlFor="firstname" className="my-1 text-base">
         First Name
       </label>

@@ -59,55 +59,70 @@ const FormPages = () => {
   };
   if (step === 1) {
     return (
-      <Step1
-        file={file}
-        setFile={setFile}
-        personal={personal}
-        setPersonal={setPersonal}
-        increase={increase}
-      />
+      <>
+        <Progressbar step={step} />
+        <Step1
+          file={file}
+          setFile={setFile}
+          personal={personal}
+          setPersonal={setPersonal}
+          increase={increase}
+        />
+      </>
     );
   }
   if (step === 2) {
     return (
-      <Step2
-        experience={experience}
-        setExperience={setExperience}
-        increase={increase}
-        decrease={decrease}
-      />
+      <>
+        <Progressbar step={step} />
+        <Step2
+          experience={experience}
+          setExperience={setExperience}
+          increase={increase}
+          decrease={decrease}
+        />
+      </>
     );
   }
   if (step === 3) {
     return (
-      <Step3
-        education={education}
-        setEducation={setEducation}
-        increase={increase}
-        decrease={decrease}
-      />
+      <>
+        <Progressbar step={step} />
+        <Step3
+          education={education}
+          setEducation={setEducation}
+          increase={increase}
+          decrease={decrease}
+        />
+      </>
     );
   }
   if (step === 4) {
     return (
-      <Step4
-        skills={skills}
-        setSkills={setSkills}
-        increase={increase}
-        decrease={decrease}
-      />
+      <>
+        <Progressbar step={step} />
+        <Step4
+          skills={skills}
+          setSkills={setSkills}
+          increase={increase}
+          decrease={decrease}
+        />
+      </>
     );
   }
   if (step === 5) {
     return (
-      <Cv
-        file={file}
-        decrease={decrease}
-        experience={experience}
-        personal={personal}
-        education={education}
-        skills={skills}
-      />
+      <>
+        <Progressbar step={step} />
+        <Cv
+          file={file}
+          decrease={decrease}
+          experience={experience}
+          personal={personal}
+          education={education}
+          skills={skills}
+        />
+      </>
     );
   }
   return (
