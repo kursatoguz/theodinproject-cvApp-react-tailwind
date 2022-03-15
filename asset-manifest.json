@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/theodinproject-cvApp-react-tailwind/static/css/main.da97e170.css",
-    "main.js": "/theodinproject-cvApp-react-tailwind/static/js/main.6e70d81c.js",
+    "main.css": "/theodinproject-cvApp-react-tailwind/static/css/main.102b9c8a.css",
+    "main.js": "/theodinproject-cvApp-react-tailwind/static/js/main.15a157cf.js",
     "static/js/703.0b4e5793.chunk.js": "/theodinproject-cvApp-react-tailwind/static/js/703.0b4e5793.chunk.js",
     "static/js/587.fe61fe9d.chunk.js": "/theodinproject-cvApp-react-tailwind/static/js/587.fe61fe9d.chunk.js",
     "index.html": "/theodinproject-cvApp-react-tailwind/index.html",
-    "main.da97e170.css.map": "/theodinproject-cvApp-react-tailwind/static/css/main.da97e170.css.map",
-    "main.6e70d81c.js.map": "/theodinproject-cvApp-react-tailwind/static/js/main.6e70d81c.js.map",
+    "main.102b9c8a.css.map": "/theodinproject-cvApp-react-tailwind/static/css/main.102b9c8a.css.map",
+    "main.15a157cf.js.map": "/theodinproject-cvApp-react-tailwind/static/js/main.15a157cf.js.map",
     "703.0b4e5793.chunk.js.map": "/theodinproject-cvApp-react-tailwind/static/js/703.0b4e5793.chunk.js.map",
     "587.fe61fe9d.chunk.js.map": "/theodinproject-cvApp-react-tailwind/static/js/587.fe61fe9d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.da97e170.css",
-    "static/js/main.6e70d81c.js"
+    "static/css/main.102b9c8a.css",
+    "static/js/main.15a157cf.js"
   ]
 }
