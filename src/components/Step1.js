@@ -13,7 +13,7 @@ const Step1 = ({ increase, personal, setPersonal, setFile }) => {
     }
   };
   return (
-    <form className=" relative w-6/12 mx-auto flex flex-col justify-content:center align-items:center m-6 font-mono ">
+    <form className=" relative w-6/12 md:w-8/12 sm:min-sm: w-11/12 mx-auto flex flex-col justify-content:center align-items:center m-6  font-mono ">
       <h4 className="text-2xl font-medium text-center ">
         Personal Informations
       </h4>

@@ -24,7 +24,7 @@ const Step4 = ({ skills, setSkills, increase, decrease }) => {
     setSkills(newExp);
   };
   return (
-    <form className=" relative w-6/12 mx-auto flex flex-col justify-content:center align-items:center m-6 font-mono ">
+    <form className=" relative w-6/12 md:w-8/12 sm:min-sm: w-11/12 mx-auto flex flex-col justify-content:center align-items:center m-6 font-mono ">
       <h4 className="text-2xl font-medium text-center ">Skills</h4>
       <div className="bg-yellow-400 h-px mt-2 w-40 mx-auto shadow-md"></div>
       {skills.map((element, index) => {

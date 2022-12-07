@@ -76,7 +76,7 @@ const Cv = ({ decrease, experience, personal, education, skills, file }) => {
               {education.map((item, index) => {
                 return (
                   <div
-                    className="mt-2 border-l-2 border-sky-600 pl-2 shadow-sm"
+                    className="mt-2 border-l-2 border-sky-600 pl-2 shadow-md"
                     key={index}
                   >
                     <div className="text-lg">
@@ -95,7 +95,7 @@ const Cv = ({ decrease, experience, personal, education, skills, file }) => {
               })}
             </div>
           </div>
-          <div className="my-5 h-0.5 bg-gray-300 shadow-md"> </div>
+          <div className="my-5 h-0.5 bg-gray-300 shadow-lg"> </div>
           <div className="mt-2">
             <h1 className="font-extrabold uppercase text-xl text-sky-700">
               Experience
@@ -103,7 +103,7 @@ const Cv = ({ decrease, experience, personal, education, skills, file }) => {
             <div className="ml-4 mt-2 pb-2 ">
               {experience.map((item, index) => {
                 return (
-                  <div className="mt-2 border-l-2 border-sky-600 pl-2 shadow-sm">
+                  <div className="mt-2 border-l-2 border-sky-600 pl-2 shadow-md">
                     <div className="text-lg">
                       {item.startingDate ? `${item.startingDate} -` : ""}{" "}
                       {item.endDate}
